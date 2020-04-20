@@ -1,0 +1,92 @@
+/*** Reset ***/
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: Helvetica, roboto, sans-serif;
+    background-image: url(img/wood.jpg);
+    position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+/*** nav ***/
+
+.nawigacja ul {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+
+}
+
+.nawigacja a {
+    text-decoration: none;
+    text-align: center;
+    background-color: #00106bca;
+    color: white;
+
+}
+
+.nawigacja a:hover {
+    background-color: rgb(0, 10, 65);
+    transition: .3s linear;
+}
+
+.nawigacja li {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.podNaw {
+    display: grid;
+    grid-template-columns: 10% 30% 20% 20% 10% 10%;
+    height: 150px;
+    background-color: rgba(255, 255, 240, 0.322);
+}
+
+.podNaw div {
+    height: 150px;
+    width: 100%;
+}
+
+.podNaw .kask img {
+    background-size: cover;
+    height: 150px;
+    width: 100%;
+}
+
+.podNaw .logo img {
+    height: 150px;
+    width: 100%;
+}
+
+.podNaw .fb,
+.instagram {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #0019a8;
+    cursor: pointer;
+}
+
+.podNaw .instagram {
+    color: lavenderblush;
+}
+
+.podNaw span {
+    display: flex;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    line-height: 150px;
+    justify-content: center;
+}
